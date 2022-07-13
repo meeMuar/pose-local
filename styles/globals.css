@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+
+  --clr--neutral-100: #e9e9e9;
+  --clr--accent-400: #fd8a8a;
+  --clr--accent-500: #ee4933;
+  --clr--neutral--900: #24252A;
+
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+  background-color: var(--clr--neutral--900);
+
+
+
+}

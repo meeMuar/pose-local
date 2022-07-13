@@ -1,0 +1,116 @@
+.gridlike {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gridlike h1,
+.gridlike p {
+
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+.gridlike div {
+
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-color: var(--clr--neutral-100);
+    padding: 0px;
+    max-width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    scale: 100%;
+
+    transition: transform 500ms ease;
+
+}
+
+.gridlike div:hover {
+
+    transform: scale(1.05);
+}
+
+
+
+.gridlike header {
+    --padding: 1.5rem;
+
+    height: 100%;
+    width: 100%;
+
+    padding: var(--padding);
+    background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 0.8));
+    transform: translateY(70%);
+    transition: transform 500ms ease;
+}
+
+.gridlike div:hover header {
+
+    transform: translateY(0%);
+}
+
+.gridlike h1 {
+    margin-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+
+
+}
+
+.gridlike h1 {
+    position: relative;
+    width: max-content;
+    max-width: 100%;
+
+}
+
+
+
+
+.gridlike p {
+    position: relative;
+    margin-left: 0%;
+    margin-right: auto;
+    max-width: 14em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+
+    margin-top: 50px;
+
+}
+
+.gridlike a {
+
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--clr--neutral-100);
+    background-color: var(--clr--accent-500);
+    padding: 0.1em 0.1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    border-radius: 0.25em;
+    margin-top: 20%;
+
+
+}
+
+.gridlike a:hover,
+.gridlike a:focus {
+
+    background-color: var(--clr--accent-400);
+}
